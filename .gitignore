@@ -24,3 +24,5 @@ build/
 *.tmp
 
 src/bcrypt.js
+src/teampCredentialManager.js
+src/tempAuth.js

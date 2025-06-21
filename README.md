@@ -23,13 +23,13 @@ A secure command-line password manager built with **Node.js** and **MySQL**, sup
 
 # Setup Instructions
 
-### 1. 📦 Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. 🧪 Configure Environment
+### 2. Configure Environment
 
 Create a `.env` file using the provided `.env.example`:
 
@@ -42,7 +42,7 @@ Then fill in:
 - `VIEW_KEY` → AES 256-bit hex key (64 characters)
 - `DB_PASSWORD` → your MySQL password
 
-### 3. 💾 Set up the Database
+### 3. Set up the Database
 
 Login to MySQL and run:
 
@@ -58,7 +58,7 @@ USE password_manager;
 CREATE TABLE credentials (...); -- from schema.sql
 ```
 
-### 4. ▶️ Run the App
+### 4. Run the App
 
 ```bash
 node src/app.js

@@ -22,3 +22,5 @@ build/
 *.json
 *.bak
 *.tmp
+
+bcrypt.js
